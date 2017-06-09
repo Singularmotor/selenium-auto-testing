@@ -34,7 +34,7 @@ def qqlout():
 
 
 wf=webdriver.Firefox()
-qqlo('1061502896','13078333854')
+qqlo('1061502896','password')
 test = wf.current_url
 if test == "http://www.qq.com/":
     print("pass")
